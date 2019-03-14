@@ -1,12 +1,12 @@
 
-WIP
+EDN loader for Webpack
 ----
 
-Plans:
+### Usage
 
-* a loader to parse from EDN file
-* a custom `toJson` function to convert data
-* release to npm
+```bash
+npm install @mvc-works/edn-loader
+```
 
 ## License
 

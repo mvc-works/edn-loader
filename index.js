@@ -1,12 +1,13 @@
 
-
+let jsedn = require('jsedn')
+let {toJson} = require('./to-json')
 
 export default function(source) {
-  const options = getOptions(this);
+  // const options = getOptions(this);
+  // validateOptions(schema, options, 'Example Loader');
 
-  validateOptions(schema, options, 'Example Loader');
+  let ednData = jsedn.parse(source)
+  let jsData = toJson(ednData)
 
-  // Apply some transformations to the source...
-
-  return `export default ${ JSON.stringify(source) }`;
+  return `mobule.exports = ${JSON.stringify(jsData)};`;
 }
