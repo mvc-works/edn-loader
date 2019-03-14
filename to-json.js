@@ -41,6 +41,18 @@ exports.toJson = function toJson(ednObj) {
     throw new Error('Symbol not supported')
   }
 
+  if (ednObj == null) {
+    return null
+  }
+
+  if (ednObj === true) {
+    return true
+  }
+
+  if (ednObj === false) {
+    return false
+  }
+
   console.error('Unkown data:', ednObj, 'in type:', typeof ednObj)
   throw new Error('Not known how to convert')
 }

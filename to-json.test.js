@@ -69,3 +69,18 @@ test('handle simple set', () => {
   let ednData = jsedn.parse(edn)
   expect(stringify(toJson(ednData))).toBe(stringify(jsonData))
 })
+
+test('handle nil', () => {
+  let edn = 'nil'
+  let jsonData = null
+  let ednData = jsedn.parse(edn)
+  expect(stringify(toJson(ednData))).toBe(stringify(jsonData))
+})
+
+test('handle boolean', () => {
+  let edn = '[true false]'
+  let jsonData = [true, false]
+  let ednData = jsedn.parse(edn)
+  expect(stringify(toJson(ednData))).toBe(stringify(jsonData))
+})
+

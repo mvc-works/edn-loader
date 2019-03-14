@@ -1,0 +1,175 @@
+{
+ :sessions {}
+ :users {
+  "N2PWRbydG" {:id "N2PWRbydG", :name "chen", :nickname "chen", :password "d41d8cd98f00b204e9800998ecf8427e", :avatar nil}
+ }
+ :templates {
+  "Fdm924BoA" {
+   :id "Fdm924BoA", :name "container", :mock-pointer "Jrl3Z_L6m"
+   :mocks {
+    "Jrl3Z_L6m" {
+     :id "Jrl3Z_L6m", :name "base"
+     :data {:name "Chen"}
+    }
+   }
+   :markup {
+    :layout :column, :type :box, :id "system"
+    :children {
+     "+T" {
+      :id "+T", :type :text, :layout nil
+      :props {"value" "DEMO"}
+      :presets #{:font-code :scroll}
+      :styles {}
+      :children {}
+      :style {"color" "red", "background-color" "blue"}
+     }
+     "D" {
+      :id "D", :type :space, :layout nil
+      :props {"height" "8"}
+      :attrs {}
+      :presets #{}
+      :style {}
+      :children {}
+     }
+     "T" {
+      :id "T", :type :text, :layout nil
+      :props {"value" "another demo"}
+      :attrs {}
+      :presets #{}
+      :style {}
+      :children {}
+     }
+     "j" {
+      :id "j", :type :space, :layout nil
+      :props {"height" "8"}
+      :attrs {}
+      :presets #{}
+      :style {}
+      :children {}
+     }
+     "r" {
+      :id "r", :type :icon, :layout nil
+      :props {"name" "settings", "color" "white"}
+      :attrs {}
+      :presets #{}
+      :style {}
+      :children {}
+     }
+     "v" {
+      :id "v", :type :button, :layout nil
+      :props {"text" "Submit"}
+      :attrs {}
+      :presets #{}
+      :style {}
+      :children {}
+     }
+     "x" {
+      :id "x", :type :link, :layout nil
+      :props {"text" "Submit"}
+      :attrs {}
+      :presets #{}
+      :style {}
+      :children {}
+     }
+     "y" {
+      :id "y", :type :inspect, :layout nil
+      :props {"value" "@"}
+      :attrs {}
+      :presets #{}
+      :style {}
+      :children {}
+     }
+    }
+    :style {"background-color" "hsl(200,70%,60%)", "min-width" "40px", "min-height" "40px", "padding" "16px"}
+    :presets #{}
+    :styles {}
+    :attrs {"draggable" "false"}
+    :props {"value" "1"}
+   }
+  }
+  "OfwQTtpQv" {
+   :id "OfwQTtpQv", :name "inside", :mock-pointer nil
+   :mocks {}
+   :markup {
+    :id "system", :type :box, :layout :row
+    :props {}
+    :attrs {}
+    :presets #{}
+    :style {}
+    :children {
+     "T" {
+      :id "T", :type :text, :layout nil
+      :props {"value" "code"}
+      :attrs {}
+      :presets #{}
+      :style {}
+      :children {}
+     }
+    }
+   }
+  }
+  "UibSLWqsm" {
+   :id "UibSLWqsm", :name "pop", :mock-pointer "thlHDjyUI", :width 400, :height 400
+   :mocks {
+    "jIKmqQK7m" {:id "jIKmqQK7m", :data true, :name "base"}
+    "thlHDjyUI" {:id "thlHDjyUI", :data false, :name "hidden"}
+   }
+   :markup {
+    :id "system", :type :box, :layout :row
+    :props {}
+    :attrs {}
+    :presets #{}
+    :style {}
+    :children {
+     "T" {
+      :id "T", :type :popup, :layout nil
+      :props {"visible" "@"}
+      :attrs {}
+      :presets #{}
+      :style {}
+      :children {
+       "T" {
+        :id "T", :type :box, :layout nil
+        :props {}
+        :attrs {}
+        :presets #{}
+        :style {}
+        :children {
+         "T" {
+          :id "T", :type :text, :layout nil
+          :props {"value" "\"demo inside popup"}
+          :attrs {}
+          :presets #{}
+          :style {}
+          :children {}
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  "yyFMvzynQ" {
+   :id "yyFMvzynQ", :name "md", :mock-pointer nil, :width 400, :height 100
+   :mocks {}
+   :markup {
+    :id "system", :type :box, :layout :row
+    :props {}
+    :attrs {}
+    :presets #{}
+    :style {}
+    :children {
+     "T" {
+      :id "T", :type :markdown, :layout nil
+      :props {"text" "\"content `console.log` [tiye](http://tiye.me)", "class" "md-area"}
+      :attrs {}
+      :presets #{}
+      :style {"padding" "4px 8px"}
+      :children {}
+     }
+    }
+   }
+  }
+ }
+}

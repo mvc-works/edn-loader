@@ -7,5 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@mvc-works/edn-loader": "^0.1.0-a4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
 }
