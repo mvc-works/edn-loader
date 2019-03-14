@@ -1,0 +1,27 @@
+{
+  "name": "@mvc-works/edn-loader",
+  "version": "0.1.0",
+  "description": "Webpack loader for EDN files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvc-works/edn-loader.git"
+  },
+  "keywords": [
+    "EDN",
+    "Clojure",
+    "Webpack"
+  ],
+  "author": "jiyinyiyong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvc-works/edn-loader/issues"
+  },
+  "homepage": "https://github.com/mvc-works/edn-loader#readme",
+  "dependencies": {
+    "jsedn": "^0.4.1"
+  }
+}
