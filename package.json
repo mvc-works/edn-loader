@@ -1,6 +1,6 @@
 {
   "name": "@mvc-works/edn-loader",
-  "version": "0.1.0-a4",
+  "version": "0.1.0",
   "description": "Webpack loader for EDN files",
   "main": "./index.js",
   "scripts": {
