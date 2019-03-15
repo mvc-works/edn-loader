@@ -84,3 +84,10 @@ test('handle boolean', () => {
   expect(stringify(toJson(ednData))).toBe(stringify(jsonData))
 })
 
+test('handle list', () => {
+  let edn = '(1 2)'
+  let jsonData = [1, 2]
+  let ednData = jsedn.parse(edn)
+  expect(stringify(toJson(ednData))).toBe(stringify(jsonData))
+})
+

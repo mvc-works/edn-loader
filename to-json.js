@@ -37,6 +37,10 @@ exports.toJson = function toJson(ednObj) {
     return ednObj.val.map(toJson)
   }
 
+  if (ednObj instanceof collections.List) {
+    return ednObj.val.map(toJson)
+  }
+
   if (ednObj instanceof atoms.Symbol) {
     throw new Error('Symbol not supported')
   }
