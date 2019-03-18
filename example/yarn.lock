@@ -2,10 +2,18 @@
 # yarn lockfile v1
 
 
-"@mvc-works/edn-loader@^0.1.0-a4":
-  version "0.1.0-a4"
-  resolved "https://registry.yarnpkg.com/@mvc-works/edn-loader/-/edn-loader-0.1.0-a4.tgz#fd029fceefc42caca36280c8832dff7bdc48894a"
-  integrity sha512-FKPDeMiw1xDqBt9KPayJrkYxepieS7In76N7rtGfb8srD4cbmym119PKtX+G3k9YyEFReLL8Kyj4wwnzdzZLiw==
+"@mvc-works/edn-loader@^0.1.2-a1":
+  version "0.1.2-a1"
+  resolved "https://registry.yarnpkg.com/@mvc-works/edn-loader/-/edn-loader-0.1.2-a1.tgz#b387c62479d4ed5219b5c67852b2afde7fd789ab"
+  integrity sha512-Tbp7HcVIXMgSAdiGNp52Q36hplfYrmafqmFCBaoaWc/Q0esLdIS7MGjrOjimcBRuH5mA4oYD/YToMKZaf67JgQ==
+  dependencies:
+    "@mvc-works/edn2json" "^0.1.0-a1"
+    jsedn "^0.4.1"
+
+"@mvc-works/edn2json@^0.1.0-a1":
+  version "0.1.0-a1"
+  resolved "https://registry.yarnpkg.com/@mvc-works/edn2json/-/edn2json-0.1.0-a1.tgz#362d88c8b32763921f6632a04badc8a5c178c500"
+  integrity sha512-JkJtJNywwC+DX3ZYqlM7BdDL1OjaJ0ySFzyzAuO0PAbwRlCKd1vFGzfQGhz/Oh6iEIHPcpROqBpAZKXLsqb1tA==
   dependencies:
     jsedn "^0.4.1"
 

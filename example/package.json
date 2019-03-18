@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@mvc-works/edn-loader": "^0.1.0-a4",
+    "@mvc-works/edn-loader": "^0.1.2-a1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3"
   }

@@ -276,6 +276,13 @@
     "@types/istanbul-lib-coverage" "^1.1.0"
     "@types/yargs" "^12.0.9"
 
+"@mvc-works/edn2json@^0.1.0-a1":
+  version "0.1.0-a1"
+  resolved "https://registry.yarnpkg.com/@mvc-works/edn2json/-/edn2json-0.1.0-a1.tgz#362d88c8b32763921f6632a04badc8a5c178c500"
+  integrity sha512-JkJtJNywwC+DX3ZYqlM7BdDL1OjaJ0ySFzyzAuO0PAbwRlCKd1vFGzfQGhz/Oh6iEIHPcpROqBpAZKXLsqb1tA==
+  dependencies:
+    jsedn "^0.4.1"
+
 "@types/babel__core@^7.1.0":
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.0.tgz#710f2487dda4dcfd010ca6abb2b4dc7394365c51"

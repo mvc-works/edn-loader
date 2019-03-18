@@ -2,6 +2,8 @@
 EDN loader for Webpack
 ----
 
+> based on [`@mvc-works/edn2json`](https://github.com/mvc-works/edn2json).
+
 ### Usage
 
 ```bash

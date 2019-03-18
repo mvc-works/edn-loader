@@ -1,6 +1,6 @@
 
 let jsedn = require('jsedn')
-let {toJson} = require('./to-json')
+let {toJson} = require('@mvc-works/edn2json')
 
 module.exports = function(source) {
   // const options = getOptions(this);
